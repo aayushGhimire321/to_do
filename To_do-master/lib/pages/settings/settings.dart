@@ -56,9 +56,9 @@ class _SettingsState extends State<Settings> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("SR Khan", style: basicStyle.copyWith(fontSize: 18)),
+                Text("Lady Anna", style: basicStyle.copyWith(fontSize: 18)),
                 Text(
-                  "srkhan@gmail.com",
+                  "ladyanna@gmail.com",
                   style: basicGrey,
                 ),
               ],

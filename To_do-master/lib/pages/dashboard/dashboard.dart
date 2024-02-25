@@ -38,7 +38,7 @@ class _DashboardState extends State<Dashboard> {
             children: [
               Text("Dashboard",
                   style: GoogleFonts.inter(color: Colors.black, fontSize: 22, fontWeight: FontWeight.w700),),
-              SizedBox(
+              const SizedBox(
                 width: 10,
               ),
               Image.asset(
@@ -71,25 +71,25 @@ class _DashboardState extends State<Dashboard> {
             ),
           ),
 
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Row(
             children: [
-              Icon(Iconsax.menu,color: primary,),
-              SizedBox(width: 10,),
+              const Icon(Iconsax.menu,color: primary,),
+              const SizedBox(width: 10,),
               Text("Task Productivity",style: GoogleFonts.inter(color: Colors.black, fontSize: 19, fontWeight: FontWeight.w700),),
             ],
           ),
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Text("Tasks in 7 days",style:  GoogleFonts.inter(color: Colors.black, fontSize: 17, fontWeight: FontWeight.w700),),
 
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Image.asset("assets/images/bar.png"),
 
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Text("Tasks in this month",style:  GoogleFonts.inter(color: Colors.black, fontSize: 17, fontWeight: FontWeight.w700),),
 
 
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
           Image.asset("assets/images/line.png"),
 
         ],

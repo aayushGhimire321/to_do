@@ -51,9 +51,9 @@ class _HomePageState extends State<HomePage> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("SR Khan", style: basicStyle.copyWith(fontSize: 18)),
+              Text("Lady Anna", style: basicStyle.copyWith(fontSize: 18)),
               Text(
-                "39 tasks today",
+                "40 tasks today",
                 style: basicGrey,
               ),
             ],
